@@ -10,7 +10,7 @@ namespace OOPS.AbstractClass_Interface
 
     /*
     An abstract class is a special type of class that cannot be instantiated. 
-    An abstract class can have constructors—this is one major difference between an abstract class and an interface
+    An abstract class can have constructors — this is one major difference between an abstract class and an interface
 
         USE AN ABSTRACT CLASS
             1). When creating a class library which will be widely distributed or reused—especially to clients, 
@@ -36,7 +36,7 @@ namespace OOPS.AbstractClass_Interface
         Below are reasons to define a class as abstract, 
         - When we do not want developers to create object of parent class because parent class object won't allow us to use method of child class, 
           and will probably give run time exception if any method throws MethodNotImplemented exception in base class. So use abstract class instead of 
-          concrete class.And when we try to create object of an abstract class user will get error on compilation instead of run-time. So,it is safe to have abstract class.
+          concrete class. And when we try to create object of an abstract class user will get error on compilation instead of run-time. So,it is safe to have abstract class.
 
         - Updating base class in large project system is easier than changing it in interface. In case we have added one new parameter to non-abstract method of abstract 
           class then we only need to update the calling part where we need to pass an extra parameter. But changing this in interface will break the code in all the inherited classes of the interface where actual implementation is written. 
